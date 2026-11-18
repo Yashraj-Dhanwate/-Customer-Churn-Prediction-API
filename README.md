@@ -109,3 +109,18 @@ docker run -p 8000:8000 customer-churn-api
 
 ## Author
 Yashraj Dhanwate
+
+## Docker Verification
+
+The Docker image was successfully built and the container was started.
+
+The `/predict` endpoint was tested successfully through the Docker-hosted API documentation at `http://127.0.0.1:8000/docs`.
+
+**Test Result:** HTTP 200 OK
+
+**Sample Prediction:**
+- Predicted Class: Not Churn
+- Churn Probability: 0.382711
+- Not Churn Probability: 0.617289
+
+
